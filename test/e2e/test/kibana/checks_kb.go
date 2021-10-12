@@ -8,8 +8,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/elastic/cloud-on-k8s/test/e2e/test"
 	"github.com/pkg/errors"
+
+	"github.com/elastic/cloud-on-k8s/test/e2e/test"
 )
 
 type kbChecks struct {

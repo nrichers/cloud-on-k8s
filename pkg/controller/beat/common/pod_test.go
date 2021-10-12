@@ -10,9 +10,10 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
+	"github.com/stretchr/testify/assert"
+
 	"github.com/elastic/cloud-on-k8s/pkg/apis/beat/v1beta1"
 	"github.com/elastic/cloud-on-k8s/pkg/controller/common/container"
-	"github.com/stretchr/testify/assert"
 )
 
 func Test_buildPodTemplate(t *testing.T) {
